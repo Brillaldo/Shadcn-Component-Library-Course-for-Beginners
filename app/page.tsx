@@ -8,6 +8,7 @@ import MyAlert from './fonts/SHADCN/MyAlert'
 import { useSearchParams } from 'next/navigation'
 import MyAlertDialog from './fonts/SHADCN/MyAlertDialog'
 import MyAspectRadio from './fonts/SHADCN/MyAspectRadio'
+import MyAvatar from './fonts/SHADCN/MyAvatar'
 
 function Page() {
 
@@ -30,7 +31,7 @@ function Page() {
 
       <MyAspectRadio/>
 
-
+      <MyAvatar/>
 
     </div>
 
