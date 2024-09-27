@@ -25,9 +25,11 @@ function MyAccordion() {
       Learn figma 
     </AccordionContent>
   </AccordionItem>
-</Accordion>
+</Accordion>    
     </div>
   )
 }
 
 export default MyAccordion
+
+    
