@@ -10,7 +10,7 @@ import {
 function MyAccordion() {
   return (
    
-    <div className='w-[200px]'>
+ 
          <Accordion type="single" collapsible>
   <AccordionItem value="item-1">
     <AccordionTrigger>Coded Design</AccordionTrigger>
@@ -26,10 +26,9 @@ function MyAccordion() {
     </AccordionContent>
   </AccordionItem>
 </Accordion>    
-    </div>
+  
   )
 }
 
 export default MyAccordion
 
-    
