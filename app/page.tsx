@@ -10,6 +10,7 @@ import MyAlertDialog from './fonts/SHADCN/MyAlertDialog'
 import MyAspectRadio from './fonts/SHADCN/MyAspectRadio'
 import MyAvatar from './fonts/SHADCN/MyAvatar'
 import MyBadge from './fonts/SHADCN/MyBadge'
+import MyBreadCrumb from './fonts/SHADCN/MyBreadCrumb'
 
 function Page() {
 
@@ -20,7 +21,7 @@ function Page() {
 
 
   return (
-    <div className='w-[200px]'>
+    <div className='w-[350px]'>
       <MyAccordion/>
 
       {
@@ -35,6 +36,8 @@ function Page() {
       <MyAvatar/>
 
       <MyBadge title='coded design' variant='destructive'  />
+    
+      <MyBreadCrumb/>
     </div>
 
   )
