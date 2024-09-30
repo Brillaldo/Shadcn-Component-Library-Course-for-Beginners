@@ -12,6 +12,7 @@ import MyAvatar from './fonts/SHADCN/MyAvatar'
 import MyBadge from './fonts/SHADCN/MyBadge'
 import MyBreadCrumb from './fonts/SHADCN/MyBreadCrumb'
 import MyButton from './fonts/SHADCN/MyButton'
+import MyCalendar from './fonts/SHADCN/MyCalendar'
 
 function Page() {
 
@@ -41,6 +42,7 @@ function Page() {
       <MyBreadCrumb/>
       <MyButton title='Save'/>
       <MyButton title='Cancel'/>
+      <MyCalendar/>
     </div>
 
   )
