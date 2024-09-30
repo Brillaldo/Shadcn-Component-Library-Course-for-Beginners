@@ -18,6 +18,7 @@ import MyCarousel1 from './fonts/SHADCN/MyCarousel1'
 import MyCarousel2 from './fonts/SHADCN/MyCarousel2'
 import MyCarousel3 from './fonts/SHADCN/MyCarousel3'
 import MyCheckBox from './fonts/SHADCN/MyCheckBox'
+import MyCollapsible from './fonts/SHADCN/MyCollapsible'
 
 function Page() {
 
@@ -58,6 +59,7 @@ function Page() {
       <MyCarousel2/>
       <MyCarousel3/>
       <MyCheckBox/>
+      <MyCollapsible/>
     </div>
 
   )
