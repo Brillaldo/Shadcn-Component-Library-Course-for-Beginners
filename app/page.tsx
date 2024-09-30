@@ -14,6 +14,9 @@ import MyBreadCrumb from './fonts/SHADCN/MyBreadCrumb'
 import MyButton from './fonts/SHADCN/MyButton'
 import MyCalendar from './fonts/SHADCN/MyCalendar'
 import MyCard from './fonts/SHADCN/MyCard'
+import MyCarousel1 from './fonts/SHADCN/MyCarousel1'
+import MyCarousel2 from './fonts/SHADCN/MyCarousel2'
+import MyCarousel3 from './fonts/SHADCN/MyCarousel3'
 
 function Page() {
 
@@ -24,7 +27,7 @@ function Page() {
 
 
   return (
-    <div className='w-screen h-screen flex flex-col gap-5 justify-center items-center '>
+    <div className='w-screen h-auto flex flex-col gap-5 pt-20 pb-20 p-4 justify-center items-center '>
       <MyAccordion/>
 
       {
@@ -48,7 +51,11 @@ function Page() {
         <MyButton title='Save'/>
       }
        
-       title='Calendar' description='Calculate days between two dates'/>
+      
+      title='Calendar' description='Calculate days between two dates'/>
+      <MyCarousel1/>
+      <MyCarousel2/>
+      *<MyCarousel3/>
     </div>
 
   )
