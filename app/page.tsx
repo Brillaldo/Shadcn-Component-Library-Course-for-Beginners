@@ -13,6 +13,7 @@ import MyBadge from './fonts/SHADCN/MyBadge'
 import MyBreadCrumb from './fonts/SHADCN/MyBreadCrumb'
 import MyButton from './fonts/SHADCN/MyButton'
 import MyCalendar from './fonts/SHADCN/MyCalendar'
+import MyCard from './fonts/SHADCN/MyCard'
 
 function Page() {
 
@@ -23,7 +24,7 @@ function Page() {
 
 
   return (
-    <div className='w-[350px]'>
+    <div className='w-screen h-screen flex flex-col gap-5 justify-center items-center '>
       <MyAccordion/>
 
       {
@@ -43,6 +44,11 @@ function Page() {
       <MyButton title='Save'/>
       <MyButton title='Cancel'/>
       <MyCalendar/>
+      <MyCard content={<MyCalendar/>} footer={
+        <MyButton title='Save'/>
+      }
+       
+       title='Calendar' description='Calculate days between two dates'/>
     </div>
 
   )
