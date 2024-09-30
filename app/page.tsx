@@ -9,6 +9,7 @@ import { useSearchParams } from 'next/navigation'
 import MyAlertDialog from './fonts/SHADCN/MyAlertDialog'
 import MyAspectRadio from './fonts/SHADCN/MyAspectRadio'
 import MyAvatar from './fonts/SHADCN/MyAvatar'
+import MyBadge from './fonts/SHADCN/MyBadge'
 
 function Page() {
 
@@ -33,6 +34,7 @@ function Page() {
 
       <MyAvatar/>
 
+      <MyBadge title='coded design' variant='destructive'  />
     </div>
 
   )
