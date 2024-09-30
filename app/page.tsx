@@ -11,6 +11,7 @@ import MyAspectRadio from './fonts/SHADCN/MyAspectRadio'
 import MyAvatar from './fonts/SHADCN/MyAvatar'
 import MyBadge from './fonts/SHADCN/MyBadge'
 import MyBreadCrumb from './fonts/SHADCN/MyBreadCrumb'
+import MyButton from './fonts/SHADCN/MyButton'
 
 function Page() {
 
@@ -38,6 +39,8 @@ function Page() {
       <MyBadge title='coded design' variant='destructive'  />
     
       <MyBreadCrumb/>
+      <MyButton title='Save'/>
+      <MyButton title='Cancel'/>
     </div>
 
   )
